@@ -1,28 +1,30 @@
 html {
-
+    scroll-behavior: smooth;
 }
 main {
     font-size: 20px;
-    background-color: #F5F6F8;
+    background-color: #A2C2C0;
 }
 
 #title {
     text-align: center;
     color:#333;
-    font-size: 2.25rem;
+    font-size: 1.25rem;
 }
 
 .container {
     display: flex;
-    border: 3px solid #333;
+    background-color: #F5F6F8;
     width:50%;
-    height: 275px;
+    height: 330px;
     justify-content: center;
     align-items: center;
-    margin: 15% auto;
+    margin: 10% auto;
+    box-shadow: 0 0 5px #585858;
 }
 
 .box {
     padding: 5%;
+    
 }
 
