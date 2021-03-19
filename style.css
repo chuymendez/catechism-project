@@ -2,8 +2,15 @@ html {
     scroll-behavior: smooth;
 }
 main {
+    
     font-size: 20px;
     background-color: #A2C2C0;
+}
+
+header {
+    display: flex;
+    border: 1px solid blue;
+    margin: 0 auto;
 }
 
 #title {
@@ -19,8 +26,9 @@ main {
     height: 330px;
     justify-content: center;
     align-items: center;
-    margin: 10% auto;
+    margin: 0 auto;
     box-shadow: 0 0 5px #585858;
+    border-radius: 5px;
 }
 
 .box {
