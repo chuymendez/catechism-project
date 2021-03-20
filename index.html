@@ -5,36 +5,76 @@
         <link rel="stylesheet" href="style.css">
     </head>
 <body>
-    <!--Header-->
-    <header id="title">
-        <h1>The Redeemer Catechism</h1>
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a class="about" href="#about">About</a>
-        <a class="1646" href="https://ideasaldente.wordpress.com/the-1646-london-baptist-confession-of-faith-in-todays-english/">The 1646</a>
-        <a class="pdf" href="https://redeemercatechism.files.wordpress.com/2021/02/redeemer-catechism.pdf">PDF download</a>
-        <a class="flashcards" href="https://quizlet.com/554374345/the-redeemer-catechism-flash-cards/">flashcards</a>
+    <!--Navbar-->
+    <div id="navbar">
+        <a href="default" id="title">The Redeemer Catechism</a>
+            <div id="navbar-right">
+                <a class="active" href="#home">Home</a>
+                <a class="about" href="#about">About</a>
+                <a class="1646" href="https://ideasaldente.wordpress.com/the-1646-london-baptist-confession-of-faith-in-todays-english/">The 1646</a>
+                <a class="pdf" href="https://redeemercatechism.files.wordpress.com/2021/02/redeemer-catechism.pdf">PDF download</a>
+                <a class="flashcards" href="https://quizlet.com/554374345/the-redeemer-catechism-flash-cards/">flashcards</a>
+            </div>
     </div>
-    </header>
-
+    
     <!--Main Section-->
-    <main>
-        <div class='container question1'>
-            <div class="box box_1"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur sequi culpa amet nesciunt nulla accusantium fugiat aperiam deserunt possimus voluptate maiores, debitis in veritatis unde tenetur eveniet a ut reiciendis.</p></div>
-        </div>
-        <div class='container question2'>
-            <div class="box box_2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur sequi culpa amet nesciunt nulla accusantium fugiat aperiam deserunt possimus voluptate maiores, debitis in veritatis unde tenetur eveniet a ut reiciendis.</div>
-        </div>
-        <div class='container question3'>
-             <div class="box box_3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur sequi culpa amet nesciunt nulla accusantium fugiat aperiam deserunt possimus voluptate maiores, debitis in veritatis unde tenetur eveniet a ut reiciendis.</div>
-        </div>
-         <div class='container question4'>
-             <div class="box box_4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur sequi culpa amet nesciunt nulla accusantium fugiat aperiam deserunt possimus voluptate maiores, debitis in veritatis unde tenetur eveniet a ut reiciendis.</div>
-         </div>
-         <div class='container question5'>
-            <div class="box box_5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur sequi culpa amet nesciunt nulla accusantium fugiat aperiam deserunt possimus voluptate maiores, debitis in veritatis unde tenetur eveniet a ut reiciendis.</div>
-        </div>
-    </main>
+    
+        <div class="container container1">
+            <h2>Question 1<h2>
+                <div class="box answer">
+                    <p>Answer 1</p>
+                </div>
+        </div>  
+        <div class="container container2">
+            <h2>Question 2<h2>
+        </div>  
+        <div class="container container3">
+            <h2>Question 3<h2>
+        </div>  
+        <div class="container container4">
+            <h2>Question 4<h2>
+        </div>  
+
+            <!--<div class='container question1'>
+                <div class="box box_1"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur sequi culpa amet nesciunt nulla accusantium fugiat aperiam deserunt possimus voluptate maiores, debitis in veritatis unde tenetur eveniet a ut reiciendis.</p></div>
+            </div>
+            <div class='container question2'>
+                <div class="box box_2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur sequi culpa amet nesciunt nulla accusantium fugiat aperiam deserunt possimus voluptate maiores, debitis in veritatis unde tenetur eveniet a ut reiciendis.</div>
+            </div>
+            <div class='container question3'>
+                <div class="box box_3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur sequi culpa amet nesciunt nulla accusantium fugiat aperiam deserunt possimus voluptate maiores, debitis in veritatis unde tenetur eveniet a ut reiciendis.</div>
+            </div>
+            <div class='container question4'>
+                <div class="box box_4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur sequi culpa amet nesciunt nulla accusantium fugiat aperiam deserunt possimus voluptate maiores, debitis in veritatis unde tenetur eveniet a ut reiciendis.</div>
+            </div>
+            <div class='container question5'>
+                <div class="box box_5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur sequi culpa amet nesciunt nulla accusantium fugiat aperiam deserunt possimus voluptate maiores, debitis in veritatis unde tenetur eveniet a ut reiciendis.</div>
+            </div>-->
+         
+    
+
+
+
+
+
+
+
+
+
+    <script>
+    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.padding = "30px 10px";
+        document.getElementById("title").style.fontSize = "25px";
+      } else {
+        document.getElementById("navbar").style.padding = "70px 10px";
+        document.getElementById("title").style.fontSize = "35px";
+      }
+    }
+    </script>
 
 </body>
 </html>
