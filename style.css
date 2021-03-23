@@ -5,8 +5,8 @@
 
 body { 
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: lightsteelblue
+  font-family: 'Lato', sans-serif;
+  background-image: linear-gradient(to right,#164a41 , #4d774e, #9dc88d);
   }
 
 /* sticky/fixed navbar */
@@ -20,6 +20,7 @@ body {
     width: 100%;
     top: 0;
     z-index: 99;
+    box-shadow: none;
     /*border-bottom: 2px solid black; */   
   }
 
@@ -37,14 +38,16 @@ body {
 
 /* Style the title */
   #navbar #title {
+    font-family: 'Merriweather', serif;
     font-size: 40px;
     font-weight: bold;
+    color: #ffffff;
     transition: 0.3s;
   }
 
 /* Links on mouse-over */
 #navbar a:hover {
-    background-color: #ddd;
+    background-color: #f1b24a;
     color: black;
   }
 
@@ -76,7 +79,7 @@ body {
 
 .container {
     display: flex;
-    background-color: #f1f1f1;
+    background-color: #F0ECE6;
     flex-direction: column;
     width:45%;
     height: 330px;
