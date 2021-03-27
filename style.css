@@ -82,6 +82,16 @@ body {
     }
   }
 
+  .section {
+    display: flex;
+    width: 60%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto 50px auto;
+    /*box-shadow: 0 0 5px #585858;*/
+  }
+
 .container {
     display: flex;
     background-color: #F0ECE6;
@@ -90,7 +100,7 @@ body {
     height: 330px;
     justify-content: center;
     align-items: center;
-    margin: 300px auto;
+    margin: 50px auto;
     box-shadow: 0 0 8px #585858;
     border-radius: 8px;
   }
