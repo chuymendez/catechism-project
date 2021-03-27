@@ -114,9 +114,17 @@ body {
   height: 25%;
   text-align: center;
   padding-top: 30px;
-  
-  font-size: .88rem;
+  /*font-size: .88rem;*/
   /*border: 1px solid red;*/
+}
+.referencebox a {
+  color: black;
+  text-decoration: none;
+  font-size: .88rem;
+}
+
+.referencebox a:hover {
+  color:  #f1b24a;
 }
 
 @media screen and (max-width: 580px) {
