@@ -7,7 +7,7 @@ body {
   margin: 0;
   font-size: 15px;
   /*background-color: #FFDB8B;*/
-  background-image: url ('vincent_image');
+  background-image: url('assets/vincent_image.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
