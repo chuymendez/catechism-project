@@ -4,7 +4,7 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.getElementById("navbar").style.padding = "22px 10px";
-    document.getElementById("navbar").style.background = '#F0ECE6';
+    document.getElementById("navbar").style.background = '#95DBE5FF';
     document.getElementById("navbar").style.boxShadow = "0 0 5px #585858";
     document.getElementById("title").style.fontSize = "1.5rem";
     //document.getElementById("title").style.color = "black";

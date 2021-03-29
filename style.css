@@ -5,9 +5,8 @@
 
 body { 
   margin: 0;
-  font-family: 'Lato', sans-serif;
   font-size: 15px;
-  background-color: white;
+  background-color: #FCF6F5FF;
   /*background: linear-gradient(to right,#164a41 , #4d774e, #9dc88d);*/
   }
 
@@ -50,10 +49,10 @@ body {
   }
 
   /* Style the active/current link */
-#navbar a.active {
+/*#navbar a.active {
     background-color: dodgerblue;
     color: white;
-  }
+  }*/
 
   /* Display some links to the right */
 #navbar-right {
@@ -89,14 +88,22 @@ body {
     justify-content: center;
     align-items: center;
     margin: 200px auto 50px auto;
+    font-size: 1.10rem;
     /*box-shadow: 0 0 5px #585858;*/
+  }
+
+  @media screen and (max-width: 580px) {
+    .section {
+      margin-top: 55%;
+      font-size: .85rem;
+    }
   }
 
 .container {
     display: flex;
-    background-color: #F0ECE6;
+    background-color: #ffffff;
     flex-direction: column;
-    width:55%;
+    width:60%;
     height: 330px;
     justify-content: center;
     align-items: center;
