@@ -7,7 +7,8 @@ body {
   margin: 0;
   font-size: 15px;
   /*background-color: #FFDB8B;*/
-  background-image: url('assets/vincent_image.jpg');
+  background-image: url('assets/ben-white-W8Qqn1PmQH0-unsplash.jpg');
+  
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
@@ -29,10 +30,11 @@ body {
 
 /* Style the navbar links */
 #navbar a {
-    color: black;
+    color: #ffffff;
     text-align: center;
     padding: 10px;
     text-decoration: none;
+    text-shadow: 2px 2px 4px #000000;
     line-height: 25px;
     border-radius: 4px;
   }
@@ -42,14 +44,15 @@ body {
     
     font-size: 2.25rem;
     /*font-weight: bold;*/
-    color: black;
+    text-shadow: 2px 2px 4px #000000;
+    color: #ffffff;
     transition: 0.3s;
   }
 
 /* Links on mouse-over */
 #navbar a:hover {
     background-color: #f1b24a;
-    color: black;
+    color: #ffffff;
   }
 
   /* Style the active/current link */
@@ -90,10 +93,14 @@ body {
     width: 60%;
     height: 100px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     margin: 200px auto 50px auto;
-    font-size: 1.10rem;
-    /*box-shadow: 0 0 5px #585858;*/
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    /*background-color: rgba(27, 45, 44, 0.25);
+    border-radius: 5%;
+    box-shadow: 0 0 5px #585858;*/
   }
 
   @media screen and (max-width: 580px) {
@@ -105,7 +112,7 @@ body {
 
 .container {
     display: flex;
-    background-color: #ffffff;
+    background-color: #E7E6E5;
     flex-direction: column;
     width:60%;
     height: 330px;
