@@ -36,7 +36,7 @@ body {
     text-decoration: none;
     text-shadow: 2px 2px 4px #000000;
     line-height: 25px;
-    border-radius: 4px;
+    border-radius: 8px;
   }
 
 /* Style the title */
@@ -152,7 +152,7 @@ body {
 }
 
 .referencebox a:hover {
-  color:  #f1b24a;
+  color:  #708448;
 }
 
 @media screen and (max-width: 580px) {
