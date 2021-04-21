@@ -34,7 +34,7 @@ body {
     text-align: center;
     padding: 10px;
     text-decoration: none;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 2px #000000;
     line-height: 25px;
     border-radius: 8px;
   }
@@ -79,13 +79,13 @@ body {
     }
     #navbar a {
       float: none;
-      display: block;
+      display: inline;
       text-align: left;
     }
     
-    #navbar-right {
+   /* #navbar-right {
       float: none;
-    }
+    }*/
   }
 
   .section {
@@ -97,7 +97,7 @@ body {
     margin: 200px auto 50px auto;
     font-size: 1.2rem;
     color: #ffffff;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 3px #000000;
     /*background-color: rgba(27, 45, 44, 0.25);
     border-radius: 5%;
     box-shadow: 0 0 5px #585858;*/
@@ -105,8 +105,8 @@ body {
 
   @media screen and (max-width: 580px) {
     .section {
-      margin-top: 55%;
-      font-size: .85rem;
+      margin-top: 35%;
+      font-size: .95rem;
     }
   }
 
