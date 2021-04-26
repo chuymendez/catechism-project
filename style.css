@@ -1,6 +1,5 @@
 *   {
-    box-sizing: border-box;
-    
+  box-sizing: border-box;
   }
 
 body { 
@@ -15,128 +14,99 @@ body {
 
 /* sticky/fixed navbar */
 #navbar {
-    overflow: hidden;
-    background: transparent;
-    padding: 50px 10px;
-    transition: 0.4s;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 99;
-    box-shadow: none;    
+  overflow: hidden;
+  background: transparent;
+  padding: 50px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  box-shadow: none;    
   }
 
 /* Style the navbar links */
 #navbar a {
-    color: #ffffff;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-    text-shadow: 2px 2px 2px #000000;
-    line-height: 25px;
-    border-radius: 8px;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px #000000;
+  line-height: 25px;
+  border-radius: 8px;
   }
 
 /* Style the title */
-  #navbar #title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.15rem;
-    text-shadow: 2px 2px 4px #000000;
-    color: #ffffff;
-    transition: 0.3s;
+#navbar #title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.15rem;
+  text-shadow: 2px 2px 4px #000000;
+  color: #ffffff;
+  transition: 0.3s;
   }
 
 /* Links on mouse-over */
 #navbar a:hover {
-    background-color: #f1b24a;
-    color: #ffffff;
+  background-color: #f1b24a;
+  color: #ffffff;
   }
 
   /* Display some links to the right */
 #navbar-right {
-    float: right;
+  float: right;
   }
  
-  @media screen and (max-width: 655px) {
-
-  }
-
-  /* responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
-@media screen and (max-width: 580px) {
-
-    body {
-      background: #BACB98;
-    }
-    #navbar {
-      padding: 10px 10px !important; /* !important to make sure that JavaScript doesn't override the padding on small screens */ 
-    }
-    #navbar a {
-      float: none;
-      display: inline;
-      text-align: left;
-    }
-  }
-
-  .section {
-    display: flex;
-    width: 60%;
-    height: 100px;
-    justify-content: center;
-    align-items: flex-end;
-    margin: 200px auto 50px auto;
-    font-size: 1.1rem;
-    color: #ffffff;
-    text-shadow: 2px 2px 3px #000000;
-    
-  }
-
-  @media screen and (max-width: 580px) {
-    .section {
-      margin-top: 35%;
-      font-size: .95rem;
-      
-      text-shadow: 1px 1px 1px #000000;
-    }
+.section {
+  display: flex;
+  width: 60%;
+  height: 100px;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 200px auto 50px auto;
+  font-size: 1.1rem;
+  color: #DFE0E0;
+  text-shadow: 2px 2px 3px #000000;
   }
 
 .container {
-    display: flex;
-    background-color: #E7E6E5;
-    flex-direction: column;
-    width:60%;
-    height: 330px;
-    justify-content: center;
-    align-items: center;
-    margin: 50px auto;
-    box-shadow: 0 0 8px #585858;
-    border-radius: 8px;
+  display: flex;
+  background-color: #E7E6E5;
+  flex-direction: column;
+  width:60%;
+  height: 330px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  box-shadow: 0 0 8px #585858;
+  border-radius: 8px;
   }
 
-.questionbox {
-    
-    width: 100%;
-    height: 20%;
-    text-align: center;
-    /*border: 1px solid blue;*/
+.questionbox { 
+   
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  /*border: 1px solid red;*/
 }
+
 .answerbox {
-    width: 100%;
-    height: 25%;
-    text-align: center;
-    font-size: 1.25rem;
-    margin-top: 5%;
-    padding: 0% 5% ;
-    /*border: 1px solid black;*/
+  width: 100%;
+  height: 25%;
+  text-align: center;
+  font-size: 1.15rem;
+  
+  padding: 0% 5% ; 
+  /*border: 1px solid blue;*/ 
 }
+
 .referencebox {
   width: 100%;
   height: 25%;
   text-align: center;
-  margin-top: 10%;
   padding: 30px 8px;
-  /*font-size: .88rem;*/
-  /*border: 1px solid red;*/
+  /*border: 1px solid green;*/
 }
+
 .referencebox a {
   color: black;
   text-decoration: none;
@@ -147,20 +117,54 @@ body {
   color:  #CE1212;
 }
 
+/* responsiveness - on screens less than 580px wide */
 @media screen and (max-width: 580px) {
+
+  body {
+    background: #BACB98;
+  }
+
+  #navbar {
+    padding: 10px 10px !important; /* !important to make sure that JavaScript doesn't override the padding on small screens */ 
+  }
+  #navbar a {
+    float: none;
+    display: inline;
+    text-align: left;
+  }
+
   .questionbox {
     font-size: 13px;
+    margin-top: 10%;
   }
   
   .answerbox {
-    font-size: 1rem;
-      
+    font-size: 1rem;  
+  }
+
+  .referencebox a {
+    font-size: .85rem;
+  }
+
+  .container2 .referencebox {
+    margin-top: 10%; 
+  }
+
+  .section {
+    margin-top: 35%;
+    font-size: .95rem;
+    text-shadow: 1px 1px 1px #000000;
+  } 
+}
+@media screen and (max-width: 890px) {
+  .container2 .referencebox {
+    margin-top: 10%;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .referencebox {
     margin-top: 0%;
-  }
+  }  
 }
 
 
