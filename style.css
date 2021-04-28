@@ -155,6 +155,9 @@ body {
   .container4 {
     height: 450px;
   }
+  .container8 {
+    height: 400px;
+  }
 
   .section {
     margin-top: 35%;
@@ -174,6 +177,9 @@ body {
   }  
   .container4 {
     height: 450px;
+  }
+  .container8 {
+    height: 425px;
   }
 }
 
