@@ -116,6 +116,7 @@ body {
 
 .referencebox a:hover {
   color:  #CE1212;
+  text-decoration: underline;
 }
 
 /* responsiveness - on screens less than 580px wide */
