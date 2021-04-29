@@ -158,7 +158,13 @@ body {
   .container8 {
     height: 400px;
   }
-
+  .container12 {
+    height: 450px;
+  }
+  .container13 {
+    height: 450px;
+  }
+  
   .section {
     margin-top: 35%;
     font-size: .95rem;
@@ -179,6 +185,12 @@ body {
     height: 450px;
   }
   .container8 {
+    height: 425px;
+  }
+  .container12 {
+    height: 425px;
+  }
+  .container13 {
     height: 425px;
   }
 }
