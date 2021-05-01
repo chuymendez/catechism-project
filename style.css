@@ -62,10 +62,14 @@ body {
   height: 100px;
   justify-content: center;
   align-items: center;
-  margin: 200px auto 50px auto;
+  margin: 20% auto 10% auto;
   font-size: 1.1rem;
   color: #DFE0E0;
   text-shadow: 2px 2px 3px #000000;
+  }
+
+  .section2 {
+    margin-top: 10%;
   }
 
 .container {
@@ -164,12 +168,21 @@ body {
   .container14 {
     height: 450px;
   }
-  
+  .container15 {
+    height: 450px;
+  }
+  .container19 {
+    height: 450px;
+  }
+
   .section {
-    margin-top: 35%;
+    margin-top: 25%;
     font-size: .95rem;
     text-shadow: 1px 1px 1px #000000;
   } 
+  .section2 {
+    margin-top: 10%;
+  }
 }
 @media screen and (max-width: 890px) {
   .container2 .referencebox {
@@ -191,6 +204,9 @@ body {
     height: 425px;
   }
   .container14 {
+    height: 425px;
+  }
+  .container18 {
     height: 425px;
   }
 }
