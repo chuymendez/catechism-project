@@ -16,4 +16,25 @@ function scrollFunction() {
   }
 }
 
-
+var refTagger = {
+  settings: {
+    bibleVersion: "NASB",			
+    roundCorners: true,			
+    customStyle : {
+      heading: {
+        backgroundColor : "#708448",
+        color : "#000000",
+        fontFamily : "Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif"
+      },
+      body   : {
+        color : "#000000",
+        fontFamily : "Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif"
+      }
+    }
+  }
+};
+(function(d, t) {
+  var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+  g.src = "//api.reftagger.com/v2/RefTagger.js";
+  s.parentNode.insertBefore(g, s);
+}(document, "script"));
