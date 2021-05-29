@@ -102,25 +102,43 @@ body {
   /*border: 1px solid blue;*/
 }
 
-.referencebox {
+.versebox {
+  display: flex;
   width: 100%;
   height: 25%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   margin: 2% 0% 0% 0%;
   padding: 3% 5%;
-  /*border: 1px solid green;*/
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 1px solid green; */
 }
 
-.referencebox a {
-  color: black;
+/* .list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  list-style-type: none;
   text-decoration: none;
-  font-size: .95rem;
+  font-size: .90rem;
+  border: 1px solid red;
+} */
+
+.item {
+  /* display: flex; */
+  
+  text-align: center;
+  
+}
+.item :link {
+  color: rgb(119, 116, 116);
+  text-decoration: none;
 }
 
-.referencebox a:hover {
-  color:  #CE1212;
+.item :hover {
+  color:  #CE1212; 
   text-decoration: underline;
 }
 
@@ -149,11 +167,11 @@ body {
     font-size: 1rem;  
   }
 
-  .referencebox a {
-    font-size: .85rem;
+  .list {
+    font-size: .72rem;
   }
-
-  .container2 .referencebox {
+  
+  .container2 .versebox {
     margin-top: 10%; 
   }
 
@@ -186,13 +204,24 @@ body {
   }
 }
 @media screen and (max-width: 890px) {
-  .container2 .referencebox {
+  body {
+    font-size: .90rem;
+  }
+
+  .list {
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center; */
+  }
+  .container2 .versebox{
     margin-top: 10%;
   }
   
 }
 @media screen and (max-width: 1000px) {
-  .referencebox {
+  .versebox {
     margin-top: 0%;
   }  
   .container4 {
