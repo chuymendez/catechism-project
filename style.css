@@ -114,18 +114,6 @@ body {
   /* border: 1px solid green; */
 }
 
-/* .list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  list-style-type: none;
-  text-decoration: none;
-  font-size: .90rem;
-  border: 1px solid red;
-} */
-
 .item {
   /* display: flex; */
   
@@ -208,13 +196,13 @@ body {
     font-size: .90rem;
   }
 
-  .list {
+  /* .list {
     flex-wrap: wrap;
-    /* justify-content: center;
+    justify-content: center;
     align-content: center;
     align-items: center;
-    text-align: center; */
-  }
+    text-align: center;
+  } */
   .container2 .versebox{
     margin-top: 10%;
   }
