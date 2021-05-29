@@ -5,7 +5,7 @@
 body { 
   margin: 0;
   font-size: 16px;
-  background-image: url('assets/judith-pollie-4gKS4USw0-o-unsplash.jpg');
+  background-image: url('assets/bernard-hermant-X-Bu9X6gok0-unsplash.jpg');
   font-family: 'Merriweather', serif;
   background-repeat: no-repeat;
   background-attachment: fixed;  
@@ -16,7 +16,7 @@ body {
 #navbar {
   overflow: hidden;
   background: transparent;
-  padding: 50px 10px;
+  padding: 40px 10px;
   transition: 0.4s;
   position: fixed;
   width: 100%;
@@ -39,7 +39,7 @@ body {
 /* Style the title */
 #navbar #title {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.15rem;
+  font-size: 2.45rem;
   /*text-shadow: 2px 2px 4px #000000;*/
   color: #000000;
   transition: 0.3s;
@@ -62,7 +62,7 @@ body {
   height: 100px;
   justify-content: center;
   align-items: center;
-  margin: 20% auto 10% auto;
+  margin: 12% auto 10% auto;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   color: #0a0e09;

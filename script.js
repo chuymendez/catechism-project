@@ -9,9 +9,9 @@ function scrollFunction() {
     document.getElementById("title").style.fontSize = "1.5rem";
     
   } else {
-    document.getElementById("navbar").style.padding = "50px 10px";
-    document.getElementById("navbar").style.background = 'transparent';
-    document.getElementById("title").style.fontSize = "2.15rem";
+    document.getElementById("navbar").style.padding = "40px 10px";
+    document.getElementById("navbar").style.background = "transparent";
+    document.getElementById("title").style.fontSize = "2.45rem";
     document.getElementById("navbar").style.boxShadow = "none";
   }
 }
