@@ -7,7 +7,7 @@ body {
   font-size: 16px;
   /* background: linear-gradient(to bottom left, #82bc23 50%, #ffffff 50%); */
   
-  background-image: url('assets/ben-white-W8Qqn1PmQH0-unsplash.jpg');
+  background-image: url('assets/bernard-hermant-X-Bu9X6gok0-unsplash.jpg');
   font-family: 'Merriweather', serif;
   background-repeat: no-repeat;
   background-attachment: fixed;  
@@ -17,9 +17,8 @@ body {
 /* sticky/fixed navbar */
 #navbar {
   overflow: hidden;
-  background: transparent;
-  padding: 40px 10px;
-  transition: 0.4s;
+  background-color: transparent;
+  transition: 0.3s;
   position: fixed;
   width: 100%;
   top: 0;
@@ -29,11 +28,11 @@ body {
 
 /* Style the navbar links */
 #navbar a {
-  color: #000000;
+  color: #a7a1a1;
   text-align: center;
   padding: 10px;
   text-decoration: none;
-  /*text-shadow: 2px 2px 2px #7cb46d;*/
+  text-shadow: 2px 2px 2px #000000;
   line-height: 25px;
   border-radius: 8px;
   }
@@ -43,13 +42,13 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.45rem;
   /*text-shadow: 2px 2px 4px #000000;*/
-  color: #000000;
+  color: #ffffff;
   transition: 0.3s;
   }
 
 /* Links on mouse-over */
 #navbar a:hover {
-  background-color: #f1b24a;
+  /* background-color: #f1b24a; */
   color: #ffffff;
   }
 
@@ -67,8 +66,8 @@ body {
   margin: 12% auto 10% auto;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
-  color: #0a0e09;
-  /*text-shadow: 2px 1px 8px #000000;*/
+  color: #ffffff;
+  text-shadow: 2px 1px 8px #000000;
   }
 
   .section2 {
@@ -110,18 +109,17 @@ body {
   height: 25%;
   margin: 2% 0% 0% 0%;
   padding: 3% 5%;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   /* border: 1px solid green; */
 }
 
 .item {
-  /* display: flex; */
-  
-  text-align: center;
-  
+  text-align: center; 
+  font-size: .85rem;
 }
+
 .item :link {
   color: rgb(119, 116, 116);
   text-decoration: none;

@@ -4,15 +4,19 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.getElementById("navbar").style.padding = "22px 10px";
-    document.getElementById("navbar").style.background = '#708448';
-    document.getElementById("navbar").style.boxShadow = "0 0 5px #585858";
+    document.getElementById("navbar").style.backgroundColor = '#496D89';
+    // document.getElementById("navbar").style.boxShadow = "0 0 5px #585858";
+    document.getElementById("navbar a").style.color = "#ffffff";
     document.getElementById("title").style.fontSize = "1.5rem";
+    document.getElementById("title").style.color = '#ffffff';
     
   } else {
     document.getElementById("navbar").style.padding = "40px 10px";
-    document.getElementById("navbar").style.background = "transparent";
+    document.getElementById("navbar").style.backgroundColor = "transparent";
+    document.getElementById("navbar a").style.color = "#000000";
     document.getElementById("title").style.fontSize = "2.45rem";
-    document.getElementById("navbar").style.boxShadow = "none";
+    document.getElementById("title").style.color = '#000000';
+    // document.getElementById("navbar").style.boxShadow = 'none';
   }
 }
 
@@ -22,7 +26,7 @@ var refTagger = {
     roundCorners: true,			
     customStyle : {
       heading: {
-        backgroundColor : "#708448",
+        backgroundColor : "#496D89",
         color : "#000000",
         fontFamily : "Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif"
       },
