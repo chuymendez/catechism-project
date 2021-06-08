@@ -6,16 +6,18 @@ function scrollFunction() {
     document.getElementById("navbar").style.padding = "22px 10px";
     document.getElementById("navbar").style.backgroundColor = '#496D89';
     // document.getElementById("navbar").style.boxShadow = "0 0 5px #585858";
-    document.getElementById("navbar a").style.color = "#ffffff";
-    document.getElementById("title").style.fontSize = "1.5rem";
+    // document.getElementById("navbar a").style.color = "#ffffff";
+    document.getElementById("title").style.fontSize = "2rem";
     document.getElementById("title").style.color = '#ffffff';
+    document.getElementById("title").style.textShadow = '2px 2px 2px #000000';
     
   } else {
     document.getElementById("navbar").style.padding = "40px 10px";
     document.getElementById("navbar").style.backgroundColor = "transparent";
-    document.getElementById("navbar a").style.color = "#000000";
-    document.getElementById("title").style.fontSize = "2.45rem";
-    document.getElementById("title").style.color = '#000000';
+    // document.getElementById("navbar a").style.color = "#fffefe";
+    document.getElementById("title").style.fontSize = "3.5rem";
+    document.getElementById("title").style.color = '#362c2c';
+    document.getElementById("title").style.textShadow = '1px 1px 1px #ffffff';
     // document.getElementById("navbar").style.boxShadow = 'none';
   }
 }
@@ -28,11 +30,12 @@ var refTagger = {
       heading: {
         backgroundColor : "#496D89",
         color : "#000000",
-        fontFamily : "Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif"
+        fontFamily : "Verdana, Geneva, sans-serif",
+        fontSize : "14px"
       },
       body   : {
         color : "#000000",
-        fontFamily : "Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif"
+        fontFamily : "Verdana, Geneva, sans-serif"
       }
     }
   }

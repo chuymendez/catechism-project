@@ -28,7 +28,7 @@ body {
 
 /* Style the navbar links */
 #navbar a {
-  color: #a7a1a1;
+  color: #fffefe;
   text-align: center;
   padding: 10px;
   text-decoration: none;
@@ -39,17 +39,17 @@ body {
 
 /* Style the title */
 #navbar #title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.45rem;
-  /*text-shadow: 2px 2px 4px #000000;*/
-  color: #ffffff;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5rem;
+  text-shadow: 1px 1px 1px #ffffff;
+  color: #362c2c;
   transition: 0.3s;
   }
 
 /* Links on mouse-over */
 #navbar a:hover {
-  /* background-color: #f1b24a; */
-  color: #ffffff;
+  background-color: #92744efb;
+  /* color: #bd9767fb; */
   }
 
   /* Display some links to the right */
@@ -66,8 +66,10 @@ body {
   margin: 12% auto 10% auto;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
-  color: #ffffff;
-  text-shadow: 2px 1px 8px #000000;
+  text-shadow: 1px 1px 1px #ffffff;
+  color: #362c2c;
+  /* color: #ffffff;
+  text-shadow: 2px 1px 8px #000000; */
   }
 
   .section2 {
