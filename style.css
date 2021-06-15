@@ -162,23 +162,23 @@ footer {
 
 .info-logo {
   width: 200px;
-  height: 120px;
+  height: 200px;
   padding: 5px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .info-item-1 {
-  width: 450px;
+  width: 420px;
   height: 200px;
   padding: 10px;
   text-align: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .info-item-2 {
-  width: 450px;
+  width: 420px;
   height: 150px;
   padding: 10px;
   text-align: center;
-  border: 1px solid blueviolet;
+  /* border: 1px solid blueviolet; */
 }
 
 .links-container {
@@ -186,12 +186,14 @@ footer {
   flex-flow: row wrap;
   justify-content: space-around;
   margin: 20px;
+  height: 50px;
   border: 1px solid blue;
   /* height: 25%; */
 }
 
 .commons-container {
   display: flex;
+  height: 50px;
   /* flex-wrap: wrap; */
   border: 1px solid yellow;
   /* height: 25%; */
@@ -212,9 +214,15 @@ footer {
   }
   #navbar a {
     float: none;
-    display: inline;
+    display: flex;
+    flex: column wrap;
     text-align: left;
+    
   }
+  #navbar a:hover {
+    background-color: none;
+    /* color: #bd9767fb; */
+    }
 
   .questionbox {
     font-size: .85rem;
@@ -261,7 +269,7 @@ footer {
     margin-top: 10%;
   }
 }
-@media screen and (max-width: 890px) {
+@media screen and (min-width: 850px) {
   body {
     font-size: .90rem;
   }
