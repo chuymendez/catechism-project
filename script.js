@@ -5,8 +5,6 @@ function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.getElementById("navbar").style.padding = "22px 10px";
     document.getElementById("navbar").style.backgroundColor = '#496D89';
-    // document.getElementById("navbar").style.boxShadow = "0 0 5px #585858";
-    // document.getElementById("navbar a").style.color = "#ffffff";
     document.getElementById("title").style.fontSize = "2rem";
     document.getElementById("title").style.color = '#ffffff';
     document.getElementById("title").style.textShadow = '2px 2px 2px #000000';
@@ -14,11 +12,10 @@ function scrollFunction() {
   } else {
     document.getElementById("navbar").style.padding = "40px 10px";
     document.getElementById("navbar").style.backgroundColor = "transparent";
-    // document.getElementById("navbar a").style.color = "#fffefe";
-    document.getElementById("title").style.fontSize = "3.5rem";
+    document.getElementById("title").style.fontSize = "3rem";
     document.getElementById("title").style.color = '#362c2c';
     document.getElementById("title").style.textShadow = '1px 1px 1px #ffffff';
-    // document.getElementById("navbar").style.boxShadow = 'none';
+    
   }
 }
 
