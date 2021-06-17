@@ -170,6 +170,7 @@ footer {
   text-shadow: 2px 2px 2px #000000;
   /* border: 2px solid blue; */
 }
+
 .info-item-2 {
   width: 100%;
   height: 150px;
@@ -180,6 +181,16 @@ footer {
   /* border: 2px solid green; */
 }
 
+.license {
+  color:#ffffff;
+  text-decoration: none;
+}
+
+.license :hover {
+  color:  #CE1212; 
+  text-decoration: underline;
+}
+
 .links-container {
   display: flex;
   flex-flow: row wrap;
@@ -188,6 +199,26 @@ footer {
   height: 50px;
   text-shadow: 2px 2px 2px #000000;
   /* border: 1px solid blue; */
+}
+
+.pdf {
+  color:#ffffff;
+  text-decoration: none;
+}
+
+.pdf :hover {
+  color: #CE1212; 
+  text-decoration: underline;
+}
+
+.flashcards {
+  color:#ffffff;
+  text-decoration: none;
+}
+
+.flashcards :hover {
+  color:  #CE1212; 
+  text-decoration: underline;
 }
 
 .commons-container {
