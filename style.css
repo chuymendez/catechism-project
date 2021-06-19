@@ -31,17 +31,17 @@ body {
 
 /* Style the navbar links */
 #navbar a {
-  color: #fffefe;
+  color: #362c2c;
   text-align: center;
   padding: 10px;
   text-decoration: none;
-  text-shadow: 2px 2px 2px #000000;
+  text-shadow: 1px 1px 1px #ffffff;
   line-height: 25px;
   border-radius: 8px;
   }
 
 /* Style the title */
-#navbar #title {
+#title {
   font-family: 'Dancing Script', cursive;
   font-size: 3rem;
   text-shadow: 1px 1px 1px #ffffff;
@@ -167,7 +167,7 @@ footer {
   padding: 10px;
   margin-top: 20px;
   text-align: center;
-  text-shadow: 2px 2px 2px #000000;
+  text-shadow: 1px 1px 1px #000000;
   /* border: 2px solid blue; */
 }
 
@@ -177,18 +177,19 @@ footer {
   padding: 10px;
   margin-top: 20px;
   text-align: center;
-  text-shadow: 2px 2px 2px #000000;
+  text-shadow: 1px 1px 1px #000000;
   /* border: 2px solid green; */
 }
 
-.license {
-  color:#ffffff;
+.license  {
+  color: rgb(187, 178, 178);
   text-decoration: none;
 }
 
-.license :hover {
-  color:  #CE1212; 
+.license:hover {
+  color:  #0c161d; 
   text-decoration: underline;
+  text-shadow: none;
 }
 
 .links-container {
@@ -197,18 +198,20 @@ footer {
   justify-content: space-around;
   margin: 20px;
   height: 50px;
-  text-shadow: 2px 2px 2px #000000;
+  text-shadow: 1px 1px 1px #000000;
   /* border: 1px solid blue; */
 }
 
 .pdf {
   color:#ffffff;
   text-decoration: none;
+  
 }
 
-.pdf :hover {
-  color: #CE1212; 
+.pdf:hover {
+  color: #0c161d; 
   text-decoration: underline;
+  text-shadow: none;
 }
 
 .flashcards {
