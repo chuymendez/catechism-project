@@ -8,17 +8,14 @@ function scrollFunction() {
     document.getElementById("title").style.fontSize = "2rem";
     document.getElementById("title").style.color = '#ffffff';
     document.getElementById("title").style.textShadow = '2px 2px 2px #000000';
-    document.getElementById("section").style.color = '#ffffff';
-    document.getElementById("section").style.textShadow = '2px 2px 2px #000000';
-    
+   
   } else {
     document.getElementById("navbar").style.padding = "40px 10px";
     document.getElementById("navbar").style.backgroundColor = "transparent";
     document.getElementById("title").style.fontSize = "3rem";
     document.getElementById("title").style.color = '#362c2c';
     document.getElementById("title").style.textShadow = '1px 1px 1px #ffffff';
-    document.getElementById("section").style.color = '#362c2c';
-    document.getElementById("section").style.textShadow = '1px 1px 1px #ffffff';
+   
     
     
   }

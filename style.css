@@ -30,14 +30,15 @@ body {
   }
 
 /* Style the navbar links */
-#navbar a {
-  color: #362c2c;
+#navright a {
+  color: #ffffff;
   text-align: center;
-  padding: 10px;
+  font-size: 1.20rem;
+  padding: 12px;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #ffffff;
-  line-height: 25px;
-  border-radius: 8px;
+  text-shadow: 1px 1px 1px #000000;
+  line-height: 10px;
+  border-radius: 5px;
   }
 
 /* Style the title */
@@ -47,15 +48,17 @@ body {
   text-shadow: 1px 1px 1px #ffffff;
   color: #362c2c;
   transition: 0.3s;
+  text-decoration: none;
   }
 
 /* Links on mouse-over */
-#navbar a:hover {
-  color: #92744efb;
+#navright :hover {
+  background-color: #2a4a64;
+  text-shadow: 1px 1px 1px #000;
   }
 
   /* Display some links to the right */
-#navbar-right {
+#navright {
   float: right;
   }
  
@@ -130,13 +133,12 @@ body {
 
 footer {
   width: 100%;
-  height: 30%;
+  /* height: 20%; */
   background-color: #496D89;
   color: white;
 }
 
 .info-container {
-  
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -147,10 +149,10 @@ footer {
 }
 
 .info-logo {
-  width: 200px;
-  height: 200px;
-  margin-top: 70px;
-  padding: 5px;
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+  padding: 20px;
   /* border: 1px solid black; */
 }
 
@@ -219,9 +221,28 @@ footer {
   text-decoration: none;
 }
 
-.flashcards :hover {
-  color:  #CE1212; 
+.flashcards:hover {
+  color:#0c161d; 
   text-decoration: underline;
+  text-shadow: none;
+}
+
+.up-button {
+  color:#ffffff;
+  text-decoration: none;
+}
+
+.up-button:hover {
+  color: #0c161d;
+  text-decoration: underline;
+  text-shadow: none;
+
+}
+
+.redeemer {
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000000;
 }
 
 .commons-container {
@@ -248,7 +269,8 @@ footer {
     padding: 10px 10px !important; /* !important to make sure that JavaScript doesn't override the padding on small screens */ 
   }
  
-  #navbar a {
+  #navright {
+    overflow: hidden;
     float: none;
     text-align: left;
   }
