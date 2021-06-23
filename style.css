@@ -391,13 +391,17 @@ footer {
 /* responsiveness - on screens less than 380px wide */
 @media screen and (max-width: 380px) {
   body {
-    font-size: 10px;
+    font-size: 11px;
   }
   #navright a {
     font-size: .85rem;
   }
   .section1 {
+    font-size: .65rem;
     margin-top: 60%;
+  }
+  .questionbox {
+    font-size: .65rem;
   }
   .item {
     font-size: .65rem;
