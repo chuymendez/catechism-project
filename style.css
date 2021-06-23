@@ -149,27 +149,30 @@ footer {
   margin: 0;
 }
 
-/* .info-logo {
+.info {
   width: 200px;
-  height: 200px;
+  height: 300px;
   margin-top: 30px;
   padding: 20px;
-  border: 1px solid black;
-  text-shadow: 1px 1px 1px #ffffff;
-} */
+  background-color: #2a4a64;
+  box-shadow: 0 0 8px #585858;
+  /* border: 1px solid black; */
+  border-radius: 3px;
+  text-shadow: 1px 1px 1px #000000;
+}
 
 /* #logo {
   width: 206px;
   height: 180px;
 } */
 
-button {
+/* button {
   border: 1px solid transparent;
   border-radius: 3px;
   
   background-color: #2a4a64;
   color: white;
-}
+} */
 
 .info-items {
   display: flex;
@@ -222,7 +225,6 @@ button {
 .pdf {
   color:#ffffff;
   text-decoration: none;
-  
 }
 
 .pdf:hover {
@@ -231,6 +233,16 @@ button {
   text-shadow: none;
 }
 
+.about {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.about:hover {
+  color: #0c161d;
+  text-decoration: underline;
+  text-shadow: none;
+}
 .flashcards {
   color:#ffffff;
   text-decoration: none;
@@ -260,16 +272,29 @@ button {
   text-shadow: 1px 1px 1px #000000;
 }
 
-.commons-container {
+.copyright-container {
   display: flex;
+  align-content: center;
+  justify-content: center;
   height: 50px;
+}
+.twitter-link {
+  color: #ffffff;
+}
+.twitter-link:hover {
+  color:#0c161d;
 }
 
 @media screen and (max-width: 800px) {
   body {
     font-size: 13px;
   }
-  
+  .info {
+    height: 200px;
+  }
+  .section1 {
+    margin-top: 25%;
+  }
 }
 
 /* responsiveness - on screens less than 580px wide */
