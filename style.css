@@ -409,8 +409,12 @@ footer {
   .container4 {
     height: 350px;
   }
-  
+}
 
+@media screen and (max-width: 260px) {
+  .section1 {
+    margin-top: 250px;
+  }
 }
 
 
