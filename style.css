@@ -362,9 +362,24 @@ footer {
 }
 
 @media screen and (max-width: 455px) {
-  .section1 {
-    margin-top: 50%;
+  .section {
+    font-size: .75rem;
   }
+  .section1 {
+    margin-top: 40%;
+  }
+  .container14 .answerbox {
+    padding-top: 40px;
+  }
+  .container24 .answerbox {
+    padding-top: 40px;
+  }
+  .container36 {
+    height: 315px;
+  }
+
+
+
 }
 
 /* responsiveness - on screens less than 380px wide */
@@ -375,8 +390,11 @@ footer {
   #navright a {
     font-size: .85rem;
   }
-  .section1 {
+  .section {
     font-size: .65rem;
+  }
+  .section1 {
+    
     margin-top: 60%;
   }
   .questionbox {
