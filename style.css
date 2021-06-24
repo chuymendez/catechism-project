@@ -371,6 +371,9 @@ footer {
   .container14 .answerbox {
     padding-top: 40px;
   }
+  .container23 {
+    height: 320px;
+  }
   .container24 .answerbox {
     padding-top: 40px;
   }
@@ -383,7 +386,7 @@ footer {
 }
 
 /* responsiveness - on screens less than 380px wide */
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 385px) {
   body {
     font-size: 11px;
   }
