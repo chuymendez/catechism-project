@@ -409,6 +409,9 @@ footer {
   .container4 {
     height: 350px;
   }
+  .container24 .answerbox {
+    padding-top: 60px;
+  }
 }
 
 @media screen and (max-width: 260px) {
