@@ -361,6 +361,11 @@ footer {
   }
 }
 
+@media screen and (max-width: 455px) {
+  .section1 {
+    margin-top: 50%;
+  }
+}
 
 /* responsiveness - on screens less than 380px wide */
 @media screen and (max-width: 380px) {
