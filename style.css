@@ -442,9 +442,31 @@ footer {
   }
   .container71 .answerbox {
     margin-top: 20px;
-    
   }
-
+  .container72 .answerbox {
+    margin-top: 20px;
+  }
+  .container74 {
+    height: 325px;
+  }
+  .container74 .answerbox {
+    margin-top: -30px;
+  }
+  .container74 .versebox {
+    margin-top: 30px;
+  }
+  .container80 .answerbox {
+    margin-top: 20px;
+  }
+  .container87 {
+    height: 345px;
+  }
+  .container87 .answerbox {
+    margin-top: 15px;
+  }
+  .container87 .versebox {
+    margin-top: 10px;
+  }
 
 
 }
