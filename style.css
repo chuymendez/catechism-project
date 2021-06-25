@@ -404,6 +404,9 @@ footer {
   .container43 .versebox {
     padding-top: 10px;
   }
+  .container44 .answerbox {
+    margin-top: 20px;
+  }
   .container48 {
     height: 315px;
   }
@@ -428,6 +431,12 @@ footer {
   .container51 .versebox {
     padding-top: 30px;
   }
+  .container52 .answerbox {
+    margin-top: 25px;
+  }
+  .container52 .versebox {
+    padding-top: 20px;
+  }
   .container57 .versebox {
     padding-top: 20px;
   }
@@ -435,10 +444,13 @@ footer {
     height: 350px;
   }
   .container58 .answerbox {
-    padding-top: 15px;
+    margin-top: 15px;
   }
   .container58 .versebox {
     padding-top: 15px;
+  }
+  .container60 {
+    height: 320px;
   }
   .container69 {
     height: 320px;
