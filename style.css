@@ -389,6 +389,9 @@ footer {
   .container36 {
     height: 315px;
   }
+  .container36 .versebox {
+    margin-top: 15px;
+  }
   .container37 .answerbox {
     padding-top: 45px;
   }
