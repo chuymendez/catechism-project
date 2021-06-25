@@ -407,6 +407,15 @@ footer {
   .container50 .answerbox {
     padding-top: 30px;
   }
+  .container51 {
+    height: 330px;
+  }
+  .container51 .answerbox {
+    padding-top: 20px;
+  }
+  .container51 .versebox {
+    padding-top: 30px;
+  }
 
 
 
