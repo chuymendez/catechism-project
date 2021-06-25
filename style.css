@@ -452,6 +452,9 @@ footer {
   .container60 {
     height: 320px;
   }
+  .container65 .answerbox {
+    margin-top: 20px;
+  }
   .container69 {
     height: 320px;
   }
@@ -468,7 +471,10 @@ footer {
     margin-top: 20px;
   }
   .container72 .answerbox {
-    margin-top: 20px;
+    margin-top: 25px;
+  }
+  .container73 .answerbox {
+    margin-top: 25px;
   }
   .container74 {
     height: 325px;
