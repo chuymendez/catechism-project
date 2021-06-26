@@ -283,6 +283,7 @@ footer {
 
   body {
     font-size: 12px;
+    background-image: url('assets/the-redeemer-catechism-wood-fence-background-bernard-hermant-550.jpg');
   }
 
   #navbar {
@@ -513,7 +514,7 @@ footer {
 @media screen and (max-width: 385px) {
   body {
     font-size: 11px;
-    background-size: auto;
+    background-image: url('assets/the-redeemer-catechism-wood-fence-background-bernard-hermant-350.jpg');
   }
   #navright a {
     font-size: .85rem;
