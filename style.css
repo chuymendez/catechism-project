@@ -9,7 +9,7 @@ html {
 body { 
   margin: 0;
   font-size: 16px;
-  background-image: url('assets/bernard-hermant-X-Bu9X6gok0-unsplash.jpg');
+  background-image: url('assets/the-redeemer-catechism-wood-fence-bernard-hermant.jpg');
   font-family: 'Merriweather', serif;
   background-repeat: no-repeat;
   background-attachment: fixed;  
@@ -513,6 +513,7 @@ footer {
 @media screen and (max-width: 385px) {
   body {
     font-size: 11px;
+    background-size: auto;
   }
   #navright a {
     font-size: .85rem;
